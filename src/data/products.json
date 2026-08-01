@@ -1,0 +1,83 @@
+{
+  "_comment": "Base de données des robots aspirateurs mis en avant. L'ASIN est l'identifiant Amazon (dans l'URL après /dp/). 'capacity' = puissance d'aspiration, 'power' = station/fonctions, 'bestFor' = usage conseillé. Les prix sont INDICATIFS — ajuste-les selon le prix réel affiché sur Amazon.",
+  "products": [
+    {
+      "asin": "B0DWK8GJZX",
+      "name": "roborock Q7 L5+ Robot Aspirateur Laveur avec Station, 8000 Pa",
+      "shortName": "roborock Q7 L5+",
+      "capacity": "8 000 Pa",
+      "power": "Vidange automatique + lavage",
+      "priceHint": "~190 €",
+      "bestFor": "petits budgets et poils d'animaux",
+      "highlight": "Le best-seller pas cher : 8 000 Pa, station à vidange automatique et fonction laveur, avec plus de 2 700 avis clients.",
+      "image": "https://m.media-amazon.com/images/I/518ZZDibQUL._AC_SL1000_.jpg",
+      "pros": ["Excellent rapport qualité/prix", "Station à vidange automatique", "Navigation laser LiDAR précise"],
+      "cons": ["Puissance d'aspiration modérée", "Lavage basique (tampon simple)"]
+    },
+    {
+      "asin": "B0FQNQC36C",
+      "name": "Lefant M1 Robot Aspirateur Laveur 2-en-1, Navigation LiDAR, Multi-étages",
+      "shortName": "Lefant M1",
+      "capacity": "5 500 Pa",
+      "power": "Laveur 2-en-1, cartographie multi-étages",
+      "priceHint": "~200 €",
+      "bestFor": "appartements et maisons à étages",
+      "highlight": "Compact et malin : navigation laser LiDAR et cartographie multi-étages à petit prix, idéal pour les logements à plusieurs niveaux.",
+      "image": "https://m.media-amazon.com/images/I/61ZoGMASIbL._AC_SL1000_.jpg",
+      "pros": ["Cartographie multi-étages", "Compact (passe sous les meubles)", "Bon rapport qualité/prix"],
+      "cons": ["Pas de station tout-en-un", "Aspiration plus modeste (5 500 Pa)"]
+    },
+    {
+      "asin": "B0DSLB5ZQ8",
+      "name": "roborock QV 35A Robot Aspirateur Laveur 8000 Pa, Anti-enchevêtrement, Station Multifonction",
+      "shortName": "roborock QV 35A",
+      "capacity": "8 000 Pa",
+      "power": "Station multifonction, brosse anti-nœuds",
+      "priceHint": "~400 €",
+      "bestFor": "familles et cheveux longs",
+      "highlight": "Brosse anti-enchevêtrement et station multifonction : le bon choix contre les cheveux et les poils qui bloquent les brosses.",
+      "image": "https://m.media-amazon.com/images/I/61gsyqYHMfL._AC_SL1000_.jpg",
+      "pros": ["Brosse anti-enchevêtrement", "Station multifonction complète", "Marque fiable (roborock)"],
+      "cons": ["Prix milieu de gamme", "Aspiration 8 000 Pa (pas la plus élevée)"]
+    },
+    {
+      "asin": "B0FN8FR84Q",
+      "name": "dreame L10s Ultra Gen 3 Robot Aspirateur Laveur 25 000 Pa, Brosse Latérale Rétractable",
+      "shortName": "dreame L10s Ultra G3",
+      "capacity": "25 000 Pa",
+      "power": "Station tout-en-un, brosse rétractable",
+      "priceHint": "~430 €",
+      "bestFor": "grandes surfaces et aspiration maximale",
+      "highlight": "Aspiration très puissante (25 000 Pa) et station tout-en-un : elle lave puis sèche les serpillières automatiquement.",
+      "image": "https://m.media-amazon.com/images/I/717lvcm-zqL._AC_SL1000_.jpg",
+      "pros": ["Aspiration très élevée (25 000 Pa)", "Station lave et sèche les serpillières", "Brosse latérale rétractable (bords et coins)"],
+      "cons": ["Station encombrante", "Prix plus élevé"]
+    },
+    {
+      "asin": "B0DY8V59LY",
+      "name": "DREAME L40s Pro Ultra Robot Aspirateur Laveur 19 000 Pa, DuoBrush Anti-emmêlement",
+      "shortName": "DREAME L40s Pro Ultra",
+      "capacity": "19 000 Pa",
+      "power": "Station tout-en-un, DuoBrush",
+      "priceHint": "~550 €",
+      "bestFor": "maisons avec animaux (le mieux noté)",
+      "highlight": "Le mieux noté de la sélection : brosses DuoBrush anti-emmêlement et station complète, 4,5 étoiles sur des centaines d'avis.",
+      "image": "https://m.media-amazon.com/images/I/71V6BOrwKnL._AC_SL1000_.jpg",
+      "pros": ["Excellente note (4,5 étoiles)", "DuoBrush anti-emmêlement", "Station tout-en-un (lave, sèche, remplit)"],
+      "cons": ["Investissement premium", "Entretien régulier de la station"]
+    },
+    {
+      "asin": "B0GMH56TRH",
+      "name": "roborock Qrevo Edge 2 Robot Aspirateur Laveur 25 000 Pa, Ultra-fin 7,98 cm",
+      "shortName": "roborock Qrevo Edge 2",
+      "capacity": "25 000 Pa",
+      "power": "Ultra-fin 7,98 cm, station complète",
+      "priceHint": "~600 €",
+      "bestFor": "haut de gamme, passe sous les meubles bas",
+      "highlight": "Ultra-fin (7,98 cm) et très puissant : il se faufile sous les meubles bas là où les autres robots restent bloqués.",
+      "image": "https://m.media-amazon.com/images/I/61CUD8NCAcL._AC_SL1000_.jpg",
+      "pros": ["Très fin (7,98 cm)", "Aspiration 25 000 Pa", "Station complète (lave les serpillières)"],
+      "cons": ["Prix haut de gamme", "Station volumineuse"]
+    }
+  ]
+}

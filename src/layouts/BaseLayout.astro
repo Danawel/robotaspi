@@ -1,0 +1,136 @@
+---
+import '../styles/global.css';
+import { SITE, ANALYTICS, OTHER_BLOGS } from '../config.ts';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Chemin canonique de la page, ex: "/guides/..." */
+  path?: string;
+  /** JSON-LD à injecter (schema.org) */
+  jsonLd?: object;
+  type?: 'website' | 'article';
+  /** Image d'aperçu (chemin type "/pins/xxx.png") pour Facebook/Twitter/Pinterest */
+  image?: string;
+}
+
+const {
+  title,
+  description = SITE.description,
+  path = '',
+  jsonLd,
+  type = 'website',
+  image,
+} = Astro.props;
+
+const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const canonical = new URL(path, SITE.url).toString();
+const ogImage = image ? new URL(image, SITE.url).toString() : null;
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="generator" content={Astro.generator} />
+    <!-- La balise google-site-verification de RobotAspi sera ajoutée ici à l'étape Search Console -->
+    {/* GOOGLE_SITE_VERIFICATION */}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="fr_FR" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="/">Robot<span>Aspi</span></a>
+        <nav class="nav">
+          <a href="/">Accueil</a>
+          <a href="/guides">Guides</a>
+          <a href="/comparatifs">Comparatifs</a>
+          <a href="/a-propos">À propos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    {OTHER_BLOGS.length > 0 && (
+      <section class="other-blogs">
+        <div class="inner">
+          <h2>Découvrez aussi nos autres blogs</h2>
+          <div class="ob-grid">
+            {OTHER_BLOGS.map((b) => (
+              <a class="ob-card" href={b.url} target="_blank" rel="noopener">
+                <span class="ob-emoji">{b.emoji}</span>
+                <span class="ob-text">
+                  <strong>{b.name}</strong>
+                  <span class="ob-tagline">{b.tagline}</span>
+                  {b.product && <span class="ob-product">{b.product}</span>}
+                </span>
+                <span class="ob-go">Voir le blog →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <footer class="site-footer">
+      <div class="inner">
+        <div>© {new Date().getFullYear()} {SITE.name}. Tous droits réservés.</div>
+        <div><a href="/a-propos">À propos & mentions</a></div>
+      </div>
+    </footer>
+    {ANALYTICS.cloudflareToken && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${ANALYTICS.cloudflareToken}"}`}
+      />
+    )}
+
+    {ANALYTICS.gaMeasurementId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ANALYTICS.gaMeasurementId}`} />
+        <script set:html={`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${ANALYTICS.gaMeasurementId}');
+
+          // Traque chaque clic sur un lien affilié Amazon (bouton "Voir le prix")
+          document.addEventListener('click', function (e) {
+            var a = e.target.closest('a[rel~="sponsored"], a[href*="amazon."]');
+            if (!a) return;
+            var m = (a.getAttribute('href') || '').match(/\\/dp\\/([A-Z0-9]{10})/);
+            gtag('event', 'clic_lien_amazon', {
+              produit_asin: m ? m[1] : 'inconnu',
+              page: location.pathname
+            });
+          });
+        `} />
+      </>
+    )}
+  </body>
+</html>
