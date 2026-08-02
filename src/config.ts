@@ -16,9 +16,8 @@ export const SITE = {
     'son robot aspirateur : robots laveurs, stations à vidange automatique, navigation laser, ' +
     'aspiration puissante et modèles pour poils d\'animaux. Bien choisir, comparer et économiser.',
 
-  // URL FINALE du blog — À REMPLACER après le déploiement Netlify.
-  // Exemple : 'https://robotaspi.netlify.app'
-  url: 'https://REMPLACER-APRES-NETLIFY.netlify.app',
+  // URL FINALE du blog (Cloudflare Pages)
+  url: 'https://robotaspi.pages.dev',
 
   // Langue
   lang: 'fr',
