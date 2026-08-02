@@ -55,7 +55,7 @@ Ce tableau donne une première vue d'ensemble, mais chaque modèle mérite d'êt
 
 Le **roborock Q7 L5+ Robot Aspirateur Laveur avec Station** s'impose comme une référence pour les personnes qui découvrent le monde du robot aspirateur laveur sans vouloir investir une somme importante. Avec ses 8 000 Pa, il couvre confortablement les besoins d'un appartement standard, que ce soit sur du parquet, du carrelage ou des tapis fins.
 
-Ce qui distingue vraiment ce modèle, c'est sa station qui assure à la fois la vidange automatique de la poussière et le lavage de la serpillière. On retrouve ainsi, à un tarif indicatif d'environ 190 €, des fonctions habituellement réservées à des modèles plus onéreux. C'est d'ailleurs ce positionnement qui explique son succès commercial : plus de 2 700 avis clients viennent confirmer que ce robot aspirateur convainc un large public, notamment les foyers avec des poils d'animaux à gérer au quotidien.
+Ce qui distingue vraiment ce modèle, c'est sa station qui assure à la fois la vidange automatique de la poussière et le lavage de la serpillière. On retrouve ainsi, à un tarif indicatif d'environ 190 €, des fonctions habituellement réservées à des modèles plus onéreux. C'est d'ailleurs ce positionnement qui explique son succès commercial : ce robot aspirateur convainc un large public, notamment les foyers avec des poils d'animaux à gérer au quotidien (le détail et le nombre d'avis à jour sont consultables sur sa fiche Amazon).
 
 **Points forts** :
 - Rapport qualité-prix difficile à battre
