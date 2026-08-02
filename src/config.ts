@@ -34,7 +34,7 @@ export const AMAZON = {
   // Tant que tu n'as pas ton compte, laisse ce placeholder :
   // les liens fonctionneront mais ne rapporteront rien.
   // Quand tu as ton vrai tag (ex: 'robotaspi-21'), remplace-le ici : tout se met à jour.
-  tag: 'robotaspi-21',
+  tag: 'robotaspi05-21',
 
   // Domaine Amazon utilisé (France par défaut)
   domain: 'www.amazon.fr',
