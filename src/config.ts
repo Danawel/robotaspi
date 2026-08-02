@@ -71,14 +71,14 @@ export const OTHER_BLOGS = [
     name: 'MaisonFraîche',
     tagline: 'Clim, rafraîchisseurs & déshumidificateurs',
     product: 'Garder sa maison au frais l\'été',
-    url: 'https://sage-chimera-00671a.netlify.app',
+    url: 'https://maisonfraiche.pages.dev',
     emoji: '❄️',
   },
   {
     name: 'AirFryGuide',
     tagline: 'Air fryers : guides & recettes',
     product: 'Les meilleures friteuses sans huile',
-    url: 'https://statuesque-lolly-d520d0.netlify.app',
+    url: 'https://airfryguide.pages.dev',
     emoji: '🍟',
   },
 ];
