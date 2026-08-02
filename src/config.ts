@@ -23,7 +23,7 @@ export const SITE = {
   lang: 'fr',
 
   // Auteur affiché
-  author: 'La rédaction RobotAspi',
+  author: 'Danaël',
 };
 
 // =============================================================
@@ -87,3 +87,30 @@ export const OTHER_BLOGS = [
 export function amazonLink(asin: string): string {
   return `https://${AMAZON.domain}/dp/${asin}?tag=${AMAZON.tag}`;
 }
+
+// =============================================================
+//  AUTEUR (affiché sur les articles et la page À propos)
+//  Un auteur nommé rassure le lecteur et améliore le référencement.
+//  Change le nom/bio si tu veux : c'est le seul endroit à modifier.
+// =============================================================
+export const AUTHOR = {
+  name: 'Danaël',
+  role: `Fondateur & rédacteur de ${SITE.name}`,
+  avatarInitial: 'D',
+  bio:
+    "Fan de domotique et d'objets qui simplifient le quotidien, je passe au crible les robots aspirateurs. " +
+    "Sur RobotAspi, je compare les modèles pour vous éviter les mauvaises surprises et les dépenses inutiles.",
+};
+
+// =============================================================
+//  MENTIONS LÉGALES (éditeur + hébergeur)
+//  Complète "editor" avec ton nom complet si tu le souhaites.
+// =============================================================
+export const LEGAL = {
+  editor: 'Danaël',
+  status: 'Éditeur individuel (particulier)',
+  email: 'Danashopify0075@gmail.com',
+  hostName: 'Cloudflare, Inc.',
+  hostAddress: '101 Townsend Street, San Francisco, CA 94107, États-Unis',
+  hostSite: 'https://www.cloudflare.com',
+};
