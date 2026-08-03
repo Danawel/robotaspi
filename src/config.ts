@@ -10,6 +10,9 @@ export const SITE = {
   // Slogan / description courte
   tagline: 'Robots aspirateurs : comparatifs, guides et bons plans pour une maison toujours propre',
 
+  // Grand titre affiché en haut de la page d'accueil
+  heroTitle: 'Le bon robot aspirateur pour une maison propre sans effort',
+
   // Description longue (SEO, balise meta description de l'accueil)
   description:
     'RobotAspi publie chaque jour des guides, comparatifs et conseils pour bien choisir ' +
