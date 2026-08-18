@@ -1,20 +1,458 @@
 [
-  { "title": "Meilleur robot aspirateur 2026 : notre comparatif complet", "type": "comparatif", "keywords": ["meilleur robot aspirateur", "comparatif robot aspirateur 2026", "robot aspirateur avis"], "products": ["B0DY8V59LY", "B0FN8FR84Q", "B0DWK8GJZX"] },
-  { "title": "Robot aspirateur laveur : lequel choisir pour aspirer ET laver le sol ?", "type": "comparatif", "keywords": ["robot aspirateur laveur", "meilleur robot laveur", "robot qui lave le sol"], "products": ["B0FN8FR84Q", "B0DSLB5ZQ8"] },
-  { "title": "Meilleur robot aspirateur pas cher : notre sélection à moins de 250 €", "type": "comparatif", "keywords": ["robot aspirateur pas cher", "robot aspirateur petit prix", "meilleur robot aspirateur budget"], "products": ["B0DWK8GJZX", "B0FQNQC36C"] },
-  { "title": "Quelle puissance d'aspiration (Pa) pour un robot aspirateur ? Le guide", "type": "guide", "keywords": ["puissance aspiration robot", "combien de pascals robot aspirateur", "pa robot aspirateur"], "products": ["B0FN8FR84Q", "B0DWK8GJZX"] },
-  { "title": "Robot aspirateur pour poils d'animaux : notre comparatif chien et chat", "type": "comparatif", "keywords": ["robot aspirateur poils animaux", "robot aspirateur chien chat", "meilleur robot poils"], "products": ["B0DSLB5ZQ8", "B0DY8V59LY"] },
-  { "title": "Station à vidange automatique : comment ça marche et est-ce utile ?", "type": "guide", "keywords": ["station vidange automatique", "robot aspirateur station auto-vidage", "base auto-vidage robot"], "products": ["B0DWK8GJZX", "B0FN8FR84Q"] },
-  { "title": "Navigation laser (LiDAR) ou caméra : quelle techno choisir pour son robot ?", "type": "comparatif", "keywords": ["navigation lidar robot aspirateur", "robot aspirateur laser ou camera", "cartographie robot aspirateur"], "products": ["B0FQNQC36C", "B0DSLB5ZQ8"] },
-  { "title": "Robot aspirateur pour maison à étages : cartographie multi-niveaux", "type": "guide", "keywords": ["robot aspirateur plusieurs etages", "cartographie multi-etages", "robot aspirateur maison etage"], "products": ["B0FQNQC36C", "B0DY8V59LY"] },
-  { "title": "roborock ou Dreame : quelle marque de robot aspirateur choisir ?", "type": "comparatif", "keywords": ["roborock ou dreame", "meilleure marque robot aspirateur", "roborock vs dreame"], "products": ["B0GMH56TRH", "B0FN8FR84Q"] },
-  { "title": "Robot aspirateur ultra-fin : passer sous les meubles bas, c'est possible", "type": "guide", "keywords": ["robot aspirateur fin", "robot aspirateur meuble bas", "robot aspirateur hauteur"], "products": ["B0GMH56TRH"] },
-  { "title": "Comment bien entretenir son robot aspirateur pour qu'il dure ?", "type": "guide", "keywords": ["entretien robot aspirateur", "nettoyer robot aspirateur", "entretenir brosse robot"], "products": [] },
-  { "title": "Brosse anti-enchevêtrement : la solution contre les cheveux longs", "type": "article", "keywords": ["brosse anti-enchevetrement", "robot aspirateur cheveux longs", "robot aspirateur anti-noeud"], "products": ["B0DSLB5ZQ8", "B0DY8V59LY"] },
-  { "title": "Combien coûte un bon robot aspirateur ? Guide des prix 2026", "type": "guide", "keywords": ["prix robot aspirateur", "combien coute robot aspirateur", "budget robot aspirateur"], "products": ["B0DWK8GJZX", "B0GMH56TRH"] },
-  { "title": "Robot aspirateur pour grande maison : autonomie et surface couverte", "type": "comparatif", "keywords": ["robot aspirateur grande maison", "robot aspirateur grande surface", "autonomie robot aspirateur"], "products": ["B0FN8FR84Q", "B0DY8V59LY"] },
-  { "title": "Robot aspirateur silencieux : bien dormir et travailler pendant le ménage", "type": "comparatif", "keywords": ["robot aspirateur silencieux", "robot aspirateur bruit", "robot aspirateur nuit"], "products": ["B0DWK8GJZX", "B0DSLB5ZQ8"] },
-  { "title": "Robot aspirateur et applications : contrôle, zones interdites et planning", "type": "guide", "keywords": ["application robot aspirateur", "zone interdite robot aspirateur", "programmer robot aspirateur"], "products": ["B0FQNQC36C", "B0FN8FR84Q"] },
-  { "title": "10 erreurs à éviter avant d'acheter un robot aspirateur", "type": "guide", "keywords": ["erreurs achat robot aspirateur", "bien choisir robot aspirateur", "conseils robot aspirateur"], "products": ["B0DWK8GJZX", "B0DY8V59LY"] },
-  { "title": "Robot aspirateur haut de gamme : ce que 500 € de plus vous apportent", "type": "comparatif", "keywords": ["robot aspirateur haut de gamme", "meilleur robot aspirateur premium", "robot aspirateur 600 euros"], "products": ["B0GMH56TRH", "B0DY8V59LY"] }
+  {
+    "title": "Meilleur robot aspirateur 2026 : notre comparatif complet",
+    "type": "comparatif",
+    "keywords": [
+      "meilleur robot aspirateur",
+      "comparatif robot aspirateur 2026",
+      "robot aspirateur avis"
+    ],
+    "products": [
+      "B0DY8V59LY",
+      "B0FN8FR84Q",
+      "B0DWK8GJZX"
+    ]
+  },
+  {
+    "title": "Robot aspirateur laveur : lequel choisir pour aspirer ET laver le sol ?",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur laveur",
+      "meilleur robot laveur",
+      "robot qui lave le sol"
+    ],
+    "products": [
+      "B0FN8FR84Q",
+      "B0DSLB5ZQ8"
+    ]
+  },
+  {
+    "title": "Meilleur robot aspirateur pas cher : notre sélection à moins de 250 €",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur pas cher",
+      "robot aspirateur petit prix",
+      "meilleur robot aspirateur budget"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0FQNQC36C"
+    ]
+  },
+  {
+    "title": "Quelle puissance d'aspiration (Pa) pour un robot aspirateur ? Le guide",
+    "type": "guide",
+    "keywords": [
+      "puissance aspiration robot",
+      "combien de pascals robot aspirateur",
+      "pa robot aspirateur"
+    ],
+    "products": [
+      "B0FN8FR84Q",
+      "B0DWK8GJZX"
+    ]
+  },
+  {
+    "title": "Robot aspirateur pour poils d'animaux : notre comparatif chien et chat",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur poils animaux",
+      "robot aspirateur chien chat",
+      "meilleur robot poils"
+    ],
+    "products": [
+      "B0DSLB5ZQ8",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Station à vidange automatique : comment ça marche et est-ce utile ?",
+    "type": "guide",
+    "keywords": [
+      "station vidange automatique",
+      "robot aspirateur station auto-vidage",
+      "base auto-vidage robot"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0FN8FR84Q"
+    ]
+  },
+  {
+    "title": "Navigation laser (LiDAR) ou caméra : quelle techno choisir pour son robot ?",
+    "type": "comparatif",
+    "keywords": [
+      "navigation lidar robot aspirateur",
+      "robot aspirateur laser ou camera",
+      "cartographie robot aspirateur"
+    ],
+    "products": [
+      "B0FQNQC36C",
+      "B0DSLB5ZQ8"
+    ]
+  },
+  {
+    "title": "Robot aspirateur pour maison à étages : cartographie multi-niveaux",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur plusieurs etages",
+      "cartographie multi-etages",
+      "robot aspirateur maison etage"
+    ],
+    "products": [
+      "B0FQNQC36C",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "roborock ou Dreame : quelle marque de robot aspirateur choisir ?",
+    "type": "comparatif",
+    "keywords": [
+      "roborock ou dreame",
+      "meilleure marque robot aspirateur",
+      "roborock vs dreame"
+    ],
+    "products": [
+      "B0GMH56TRH",
+      "B0FN8FR84Q"
+    ]
+  },
+  {
+    "title": "Robot aspirateur ultra-fin : passer sous les meubles bas, c'est possible",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur fin",
+      "robot aspirateur meuble bas",
+      "robot aspirateur hauteur"
+    ],
+    "products": [
+      "B0GMH56TRH"
+    ]
+  },
+  {
+    "title": "Comment bien entretenir son robot aspirateur pour qu'il dure ?",
+    "type": "guide",
+    "keywords": [
+      "entretien robot aspirateur",
+      "nettoyer robot aspirateur",
+      "entretenir brosse robot"
+    ],
+    "products": []
+  },
+  {
+    "title": "Brosse anti-enchevêtrement : la solution contre les cheveux longs",
+    "type": "article",
+    "keywords": [
+      "brosse anti-enchevetrement",
+      "robot aspirateur cheveux longs",
+      "robot aspirateur anti-noeud"
+    ],
+    "products": [
+      "B0DSLB5ZQ8",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Combien coûte un bon robot aspirateur ? Guide des prix 2026",
+    "type": "guide",
+    "keywords": [
+      "prix robot aspirateur",
+      "combien coute robot aspirateur",
+      "budget robot aspirateur"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0GMH56TRH"
+    ]
+  },
+  {
+    "title": "Robot aspirateur pour grande maison : autonomie et surface couverte",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur grande maison",
+      "robot aspirateur grande surface",
+      "autonomie robot aspirateur"
+    ],
+    "products": [
+      "B0FN8FR84Q",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Robot aspirateur silencieux : bien dormir et travailler pendant le ménage",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur silencieux",
+      "robot aspirateur bruit",
+      "robot aspirateur nuit"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0DSLB5ZQ8"
+    ]
+  },
+  {
+    "title": "Robot aspirateur et applications : contrôle, zones interdites et planning",
+    "type": "guide",
+    "keywords": [
+      "application robot aspirateur",
+      "zone interdite robot aspirateur",
+      "programmer robot aspirateur"
+    ],
+    "products": [
+      "B0FQNQC36C",
+      "B0FN8FR84Q"
+    ]
+  },
+  {
+    "title": "10 erreurs à éviter avant d'acheter un robot aspirateur",
+    "type": "guide",
+    "keywords": [
+      "erreurs achat robot aspirateur",
+      "bien choisir robot aspirateur",
+      "conseils robot aspirateur"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Robot aspirateur haut de gamme : ce que 500 € de plus vous apportent",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur haut de gamme",
+      "meilleur robot aspirateur premium",
+      "robot aspirateur 600 euros"
+    ],
+    "products": [
+      "B0GMH56TRH",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Robot aspirateur ou aspirateur balai : lequel choisir pour son ménage ?",
+    "type": "comparatif",
+    "keywords": [
+      "robot aspirateur vs aspirateur balai",
+      "quel aspirateur choisir",
+      "aspirateur balai ou robot"
+    ],
+    "products": []
+  },
+  {
+    "title": "Robot aspirateur pour studio et petit appartement : notre sélection",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur petit appartement",
+      "robot aspirateur studio",
+      "meilleur robot aspirateur petite surface"
+    ],
+    "products": [
+      "B0FQNQC36C"
+    ]
+  },
+  {
+    "title": "Robot aspirateur et tapis épais : fonctionne-t-il vraiment bien ?",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur tapis épais",
+      "robot aspirateur moquette",
+      "aspiration tapis robot"
+    ],
+    "products": [
+      "B0FN8FR84Q"
+    ]
+  },
+  {
+    "title": "Robot aspirateur et escaliers : que se passe-t-il en cas de vide ?",
+    "type": "article",
+    "keywords": [
+      "robot aspirateur escalier",
+      "détection de vide robot aspirateur",
+      "robot aspirateur tombe escalier"
+    ],
+    "products": []
+  },
+  {
+    "title": "Robot aspirateur compatible Alexa et Google Home : le guide complet",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur Alexa",
+      "robot aspirateur Google Home",
+      "commande vocale robot aspirateur"
+    ],
+    "products": [
+      "B0DSLB5ZQ8",
+      "B0GMH56TRH"
+    ]
+  },
+  {
+    "title": "Panne de robot aspirateur : les erreurs les plus courantes et comment les résoudre",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur ne charge plus",
+      "robot aspirateur bloqué",
+      "dépannage robot aspirateur"
+    ],
+    "products": []
+  },
+  {
+    "title": "Combien de temps dure la batterie d'un robot aspirateur ?",
+    "type": "guide",
+    "keywords": [
+      "durée de vie batterie robot aspirateur",
+      "changer batterie robot aspirateur",
+      "autonomie batterie robot"
+    ],
+    "products": []
+  },
+  {
+    "title": "Robot aspirateur reconditionné : bon plan ou mauvaise idée ?",
+    "type": "article",
+    "keywords": [
+      "robot aspirateur reconditionné",
+      "acheter robot aspirateur occasion",
+      "robot aspirateur pas cher reconditionné"
+    ],
+    "products": []
+  },
+  {
+    "title": "Quand acheter son robot aspirateur ? Black Friday, soldes et bons plans",
+    "type": "article",
+    "keywords": [
+      "black friday robot aspirateur",
+      "promo robot aspirateur",
+      "meilleure période pour acheter robot aspirateur"
+    ],
+    "products": []
+  },
+  {
+    "title": "Comment nettoyer la serpillère et le réservoir d'eau de son robot laveur ?",
+    "type": "guide",
+    "keywords": [
+      "nettoyer serpillère robot aspirateur",
+      "entretien réservoir eau robot laveur",
+      "robot aspirateur mauvaise odeur"
+    ],
+    "products": [
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Robot aspirateur et allergies : peut-il vraiment améliorer la qualité de l'air ?",
+    "type": "guide",
+    "keywords": [
+      "robot aspirateur allergies",
+      "robot aspirateur filtre HEPA",
+      "qualité de l'air maison robot aspirateur"
+    ],
+    "products": [
+      "B0DSLB5ZQ8"
+    ]
+  },
+  {
+    "title": "Garantie et SAV : que faire en cas de panne de votre robot aspirateur ?",
+    "type": "guide",
+    "keywords": [
+      "garantie robot aspirateur",
+      "SAV robot aspirateur",
+      "robot aspirateur en panne que faire"
+    ],
+    "products": []
+  },
+  {
+    "title": "Évitement d'obstacles par IA : comment les robots aspirateurs voient-ils les objets ?",
+    "type": "guide",
+    "keywords": [
+      "évitement obstacles robot aspirateur",
+      "IA robot aspirateur",
+      "robot aspirateur reconnaissance objets"
+    ],
+    "products": [
+      "B0GMH56TRH",
+      "B0FN8FR84Q"
+    ]
+  },
+  {
+    "title": "Roborock Q7 L5+ vs Roborock QV 35A : quel modèle choisir ?",
+    "type": "comparatif",
+    "keywords": [
+      "Roborock Q7 L5+ avis",
+      "Roborock QV 35A avis",
+      "comparatif Roborock Q7 QV 35A"
+    ],
+    "products": [
+      "B0DWK8GJZX",
+      "B0DSLB5ZQ8"
+    ]
+  },
+  {
+    "title": "Dreame L10s Ultra Gen 3 vs Dreame L40s Pro Ultra : lequel acheter ?",
+    "type": "comparatif",
+    "keywords": [
+      "Dreame L10s Ultra avis",
+      "Dreame L40s Pro Ultra avis",
+      "comparatif Dreame robot aspirateur"
+    ],
+    "products": [
+      "B0FN8FR84Q",
+      "B0DY8V59LY"
+    ]
+  },
+  {
+    "title": "Combien consomme un robot aspirateur ? Le coût réel à l'année",
+    "type": "guide",
+    "keywords": [
+      "consommation électrique robot aspirateur",
+      "coût robot aspirateur à l'année",
+      "robot aspirateur électricité"
+    ],
+    "products": []
+  },
+  {
+    "title": "Premiers pas avec son robot aspirateur : configuration wifi et application",
+    "type": "guide",
+    "keywords": [
+      "configurer robot aspirateur",
+      "robot aspirateur wifi 2.4GHz",
+      "installer application robot aspirateur"
+    ],
+    "products": []
+  },
+  {
+    "title": "Robot aspirateur en location ou copropriété : bruit et règles à connaître",
+    "type": "article",
+    "keywords": [
+      "robot aspirateur copropriété",
+      "robot aspirateur bruit voisins",
+      "robot aspirateur appartement locataire"
+    ],
+    "products": [
+      "B0FQNQC36C"
+    ]
+  },
+  {
+    "title": "Station tout-en-un avec vidange d'eau sale automatique : le futur du robot laveur ?",
+    "type": "guide",
+    "keywords": [
+      "station vidange eau sale robot aspirateur",
+      "robot laveur station automatique",
+      "robot aspirateur eau sale autonettoyant"
+    ],
+    "products": [
+      "B0DY8V59LY",
+      "B0GMH56TRH"
+    ]
+  },
+  {
+    "title": "Robot aspirateur et sécurité des enfants : rampes, escaliers et zones à risque",
+    "type": "article",
+    "keywords": [
+      "robot aspirateur sécurité enfant",
+      "robot aspirateur bébé maison",
+      "zones interdites robot aspirateur enfant"
+    ],
+    "products": []
+  }
 ]
